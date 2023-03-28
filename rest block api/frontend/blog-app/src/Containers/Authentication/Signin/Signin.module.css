@@ -1,0 +1,90 @@
+.brandMsg{
+	padding: 60px 0 0;
+	text-align: center;
+	font-size: 30px;
+}
+
+.brandLogo{
+	width: 100px;
+	height: 100px;
+	border: 2px solid black;
+	display: block;
+	margin: 0 auto 20px;
+	font-size: 20px;
+}
+
+.external{
+	display: block;
+	margin: 20px auto;
+	padding: 30px;
+	background-color: #edeff1;
+	text-align: center;
+	width: 90%;
+	max-width: 460px;
+	box-sizing: border-box;
+}
+
+.wel_quote{
+	color: rgb(87, 87, 87);
+}
+
+.input{
+	background-color: #aaaaaa00;
+	width: 90%;
+	padding: 5px;
+	margin: 15px auto;
+	height: 32px;
+	font-size: 18px;
+	border: none;
+	border-bottom: 2px solid grey;
+	display: block;
+	text-align: left;
+}
+
+.input:focus{
+	outline: none;
+	background-color: #e9f1ff;
+	border-color: rgb(44, 119, 216);
+}
+
+button{
+	background-color: #eee;
+	border: none;
+	height: 30px;
+}
+
+button.signin{
+	background-color: #2ea44f;
+	color: white;
+	display: block;
+	width: 90%;
+	max-width: 400px;
+	padding: 5px;
+	margin: 10px auto;
+	border-radius: 15px;
+	height: 40px;
+	margin-top: 30px;
+	font-size: 18px;
+}
+
+button.signin:focus, button.signin:hover{
+	outline: none;
+	background-color: #4baa66;
+}
+
+.newToAppMsg, .forgotMsg{
+	font-size: 18px;
+	color: rgb(105, 105, 105);
+	margin-top: 20px;
+}
+
+.newToAppMsg a,.forgotMsg a{
+	color: rgb(31, 116, 185);
+	text-decoration: none;
+	font-weight: bold;
+	margin: 0 10px;
+	display: inline-block;
+}
+.newToAppMsg a:hover,.forgotMsg a:hover{
+	color: rgb(69, 136, 190);
+}
